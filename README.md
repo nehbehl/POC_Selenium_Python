@@ -10,3 +10,6 @@ This code repository will show usage of selenium and python for automation testi
 # How to use
 1. Clone the project to your local machine.
 2. Run through the example codes.
+
+# open_url_script
+This code shows how to use Webdriver to launch a specific url on Firefox using python and selenium bindings. It further shows element search and interacting with elements on browser. 
