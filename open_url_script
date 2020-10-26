@@ -1,24 +1,24 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-#initialize firefox driver instance
+# initialize firefox driver instance
 driver = webdriver.Firefox()
 
-#get method helps to launch browser with specific URL
+# get method helps to launch browser with specific URL
 driver.get("http://www.google.com")
 
-#find_element_by_name is used to locate the element with name 'q'
+# find_element_by_name is used to locate the element with name 'q'
 ele = driver.find_element_by_name("q")
 
-#commands to enter data in search textbox
+# commands to enter data in search textbox
 ele.clear()
 ele.send_keys("test")
 ele.send_keys(Keys.RETURN)
 
-#validating that search was successful
+# validating that search was successful
 assert "No results found" not in driver.page_source
 
-#closing the driver instance
+# closing the driver instance
 driver.quit()
 
 
