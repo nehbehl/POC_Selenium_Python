@@ -4,6 +4,9 @@ from selenium.webdriver.common.keys import Keys
 # initialize firefox driver instance
 driver = webdriver.Firefox()
 
+# command to get Chrome driver
+# driver = webdriver.Chrome()
+
 # get method helps to launch browser with specific URL
 driver.get("http://www.google.com")
 
