@@ -6,7 +6,7 @@ This code repository will show usage of selenium and python for automation testi
 2. Use 'pip install selenium' to install selenium. (In case you have not used Ananconda distribution, first install pip using 'get-pip.py')
 3. Install webdriver downloader using 'pip install webdriverdownloader'.
 4. Download browser driver respective to your browser. Ensure to place the driver in project path itself.
-   (You can use webdriverdownloader to download different browser drivers)
+   (You can use webdriverdownloader to download different browser drivers, e.g. webdriverdownloader chrome:2.38 firefox opera:v.2.35)
    
 # How to use
 1. Clone the project to your local machine.
