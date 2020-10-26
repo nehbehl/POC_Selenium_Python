@@ -2,8 +2,8 @@
 This code repository will show usage of selenium and python for automation testing purpose.
 
 # Installations
-1. Install Python 3.6 or above.
-2. Use 'pip install selenium' to install selenium.
+1. Install Python 3.6 or above. It is suggested to use Anaconda distributions for bundled package of Python.
+2. Use 'pip install selenium' to install selenium. (In case you have not used Ananconda distribution, first install pip using 'get-pip.py')
 3. Download browser driver respective to your browser. Ensure to place the driver in project path itself.
    (You can use webdriverdownloader to download different browser drivers)
    
