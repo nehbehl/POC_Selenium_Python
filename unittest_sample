@@ -7,7 +7,7 @@ class PythonOrgSearch(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
 
-    def test_search_in_python_org(self):
+    def test_search_in_google_com(self):
         driver = self.driver
         driver.get("http://www.google.com")
         self.assertIn("Google", driver.title)
