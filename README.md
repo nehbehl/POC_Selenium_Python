@@ -14,3 +14,7 @@ This code repository will show usage of selenium and python for automation testi
 
 # open_url_script
 This code shows how to use Webdriver to launch a specific url on Firefox using python and selenium bindings. It further shows element search and interacting with elements on browser. 
+
+# unittest_sample
+This code shows how to use unittest framework for writing python test scripts. 
+Note: unittest.main() needs argument only when running with IPython or Juypter notebook.
