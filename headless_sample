@@ -2,6 +2,10 @@ from selenium.webdriver import Firefox
 from selenium.webdriver.firefox.options import Options
 opts = Options()
 opts.set_headless()
-assert opts.headless  # Operating in headless mode
+
+# Operating in headless mode
+assert opts.headless  
+
+# Launching Firefox browser
 browser = Firefox(options=opts)
 browser.get('https://www.google.com')
